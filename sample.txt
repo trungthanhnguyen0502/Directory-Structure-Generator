@@ -1,0 +1,27 @@
+project-root/
+├── src/
+│   ├── main/
+│   │   ├── __init__.py
+│   │   ├── app.py
+│   │   ├── utils/
+│   │   │   ├── __init__.py
+│   │   │   ├── helper.py
+│   │   │   └── logger.py
+│   │   └── services/
+│   │       ├── __init__.py
+│   │       ├── user_service.py
+│   │       └── product_service.py
+│   └── tests/
+│       ├── __init__.py
+│       ├── test_app.py
+│       └── test_utils.py
+├── docs/
+│   ├── index.md
+│   ├── installation.md
+│   └── usage.md
+├── scripts/
+│   ├── deploy.sh
+│   └── setup.py
+├── .gitignore
+├── requirements.txt
+└── README.md
